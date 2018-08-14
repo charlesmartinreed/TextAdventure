@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8C27DBDC212343A10045020C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27DBDB212343A10045020C /* main.swift */; };
+		8C27DBE3212343F30045020C /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27DBE2212343F30045020C /* Planet.swift */; };
+		8C27DBE5212345350045020C /* PlanetarySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27DBE4212345350045020C /* PlanetarySystem.swift */; };
+		8C27DBE72123476E0045020C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27DBE62123476E0045020C /* Helper.swift */; };
+		8C27DBE921234CB80045020C /* SpaceAdventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27DBE821234CB80045020C /* SpaceAdventure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		8C27DBD8212343A10045020C /* TextAdventure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TextAdventure; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C27DBDB212343A10045020C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8C27DBE2212343F30045020C /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		8C27DBE4212345350045020C /* PlanetarySystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetarySystem.swift; sourceTree = "<group>"; };
+		8C27DBE62123476E0045020C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8C27DBE821234CB80045020C /* SpaceAdventure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceAdventure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				8C27DBDB212343A10045020C /* main.swift */,
+				8C27DBE2212343F30045020C /* Planet.swift */,
+				8C27DBE4212345350045020C /* PlanetarySystem.swift */,
+				8C27DBE62123476E0045020C /* Helper.swift */,
+				8C27DBE821234CB80045020C /* SpaceAdventure.swift */,
 			);
 			path = TextAdventure;
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C27DBE5212345350045020C /* PlanetarySystem.swift in Sources */,
 				8C27DBDC212343A10045020C /* main.swift in Sources */,
+				8C27DBE3212343F30045020C /* Planet.swift in Sources */,
+				8C27DBE72123476E0045020C /* Helper.swift in Sources */,
+				8C27DBE921234CB80045020C /* SpaceAdventure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
